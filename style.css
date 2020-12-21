@@ -7,3 +7,36 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  background: #2c2141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background: #f8f8f8;
+  width: 624px;
+  border-radius: 16px;
+  padding: 32px;
+  margin: 16px;
+}
+
+.person {
+  display: flex;
+}
+.person__img {
+  border-radius: 50%;
+  width: 148px;
+  height: 148px;
+}
+
+.wrapper {
+  margin-left: 32px;
+}
+
+.person__description {
+  margin-top: 24px;
+}
