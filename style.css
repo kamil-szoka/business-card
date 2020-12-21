@@ -38,5 +38,36 @@ main {
 }
 
 .person__description {
-  margin-top: 24px;
+  margin: 0;
+  line-height: 22px;
+}
+
+.person__description--margin {
+  margin-top: 22px;
+}
+
+.person__name {
+  font-size: 36px;
+  line-height: 41px;
+  font-family: arial;
+  font-weight: normal;
+  margin: 0;
+}
+
+.person__position {
+  margin: 0 0 24px 0;
+  font-size: 18px;
+  font-size: arial;
+  font-style: italic;
+  line-height: 21px;
+  color: #545454;
+}
+
+.special {
+  color: #ed6d05;
+}
+
+.person__link {
+  color: #e20613;
+  text-decoration: none;
 }
